@@ -379,12 +379,13 @@ const Header2 = (props) => {
                                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                                     <div className="lg:py-24">
                                         <h1 className="mt-4 text-center text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                                            <span className="block">Turn any link into a</span>
-                                            <span className="pb-3 block bg-clip-text text-transparent bg-green-400 sm:pb-5">
-                                                referral link
-                                            </span>
+                                            <span>Build</span>{" "}
+                                            <span className="pb-3 bg-clip-text text-transparent bg-green-400 sm:pb-5">
+                                                referral features
+                                            </span>{" "}
+                                            <span className="pb-3 bg-clip-text sm:pb-5">onto any link</span>
                                         </h1>
-                                        <p className="text-base text-center text-white sm:text-xl lg:text-lg xl:text-xl">
+                                        <p className="mt-3 text-base text-center text-white sm:text-xl lg:text-lg xl:text-xl">
                                             Incentivise your audience to share your link and reward them for their efforts. Set up in lesss than 5 minutes.
                                         </p>
                                         <form action="#" className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
@@ -404,7 +405,7 @@ const Header2 = (props) => {
                                                     type="submit"
                                                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-green-500 text-base font-medium text-white shadow hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus:ring-offset-gray-900 sm:px-10"
                                                 >
-                                                    Create referral link
+                                                    Start building
                                                 </button>
                                             </div>
                                         </form>
@@ -463,7 +464,7 @@ const Header2 = (props) => {
                                         {transferFeatures.map((item) => (
                                             <div key={item.id} className="relative">
                                                 <dt>
-                                                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-400 text-white">
                                                         <item.icon className="h-6 w-6" aria-hidden="true" />
                                                     </div>
                                                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
@@ -497,9 +498,9 @@ const Header2 = (props) => {
                                         <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
                                     </svg>
                                     <img
-                                        className="relative mx-auto"
+                                        className="relative mx-auto rounded-2xl shadow-lg"
                                         width={490}
-                                        src="https://tailwindui.com/img/features/feature-example-1.png"
+                                        src="/referralexchange.svg"
                                         alt=""
                                     />
                                 </div>

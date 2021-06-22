@@ -11,12 +11,12 @@ function App() {
 
   return (
     <div>
-      {/* <Header2 /> */}
+      <Header2 />
       {/* <Header /> */}
       {/* <Job /> */}
       {/* <Product /> */}
       {/* <Community /> */}
-      <Link />
+      {/*<Link />*/}
     </div>
   );
 }
